@@ -1,7 +1,7 @@
 # System Design
 
-Loom Link: 
-UML Diagram: 
+* Loom Link: 
+* UML Diagram: 
 
 ## Notes:
 
