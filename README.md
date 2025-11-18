@@ -1,38 +1,12 @@
 # swe-2-5-system-design-uml
 
 **Table of Contents:**
-- [Reminders](#reminders)
-  - [Asking ChatGPT for Help](#asking-chatgpt-for-help)
-  - [Be Okay With Being "Provisionally Complete"](#be-okay-with-being-provisionally-complete)
 - [Setup](#setup)
 - [System Design Problem](#system-design-problem)
+  - [Time Constraint](#time-constraint)
   - [Part 1: Design Your System](#part-1-design-your-system)
   - [Part 2: Create a UML Diagram](#part-2-create-a-uml-diagram)
   - [Step 3: Record Your Explanation](#step-3-record-your-explanation)
-
-## Reminders
-
-### Asking ChatGPT for Help
-
-If you’re stuck, you may use ChatGPT to clarify the assignment — but not to solve it for you. To do this, copy the meta-prompt below into ChatGPT along with the assignment question.
-
-> You are acting as a tutor. Your job is to explain what this coding question is asking, clarify confusing wording, and highlight the relevant concepts students need to know — but do not provide the full solution or code that directly answers the question. Instead, focus on rephrasing the problem in simpler terms, identifying what’s being tested, and suggesting what steps or thought processes might help. Ask guiding questions to ensure the student is thinking critically. Do not write the final function, algorithm, or code implementation.
-
-Be mindful of your AI usage on assignments. AI can be a great tool to help your learning but it can also be detrimental if you let it do too much of the thinking for you.
-
-### Be Okay With Being "Provisionally Complete"
-
-We know many of you will feel the urge to hold off on submitting until your assignment feels 100% perfect. That drive for excellence is an asset!
-
-But perfectionism can also get in the way of learning — especially when we need to cover a lot in a short amount of time.
-
-That’s why we encourage you to be comfortable with being **“provisionally complete.”** This means:
-
-- Submitting your work even if it isn’t perfect yet
-- Treating submission as a checkpoint, not a finish line
-- Committing to return, revise, and improve later
-
-Learning to move forward with provisional completeness will help you make steady progress while still building the habit of continuous improvement.
 
 ## Setup
 
@@ -44,9 +18,6 @@ Here are some useful commands to remember.
 npm i                   # install dependencies
 git checkout -b draft   # switch to the draft branch before starting
 
-npm test # run the automated tests
-npm run test:w # run the automated tests and rerun them each time you save a change
-
 git add -A              # add a changed file to the staging area
 git commit -m 'message' # create a commit with the changes
 git push                # push the new commit to the remote repo
@@ -54,9 +25,19 @@ git push                # push the new commit to the remote repo
 
 ## System Design Problem
 
+### Time Constraint
+
+For this assignment, you will design a system based on the prompt below. This assignment is meant to simulate an interview (and your upcoming assessment) so **aim to spend approximately 2 hours on it total**, and up to 3 hours if you must.
+* 20-30 min: Understanding requirements and sketching initial design
+* 30-40 min: Creating the UML diagram in LucidChart
+* 20-30 min: Writing bullet points for explanation
+* 15-20 min: Recording and reviewing the Loom
+
+Your goal should be to hone your intuition around good system design and this time constraint will force you to make decisions.
+
 ### Part 1: Design Your System
 
-**Scenario**: You are tasked with designing an **Doctor's Appointment Management system**. Your system design should capture the essential *entities (classes)*, the *responsibilities* of those entities (properties/methods), and the *relationships* between them.
+**Scenario**: You are tasked with designing a **Doctor's Appointment Management system**. Your system design should capture the essential *entities (classes)*, the *responsibilities* of those entities (properties/methods), and the *relationships* between them.
 
 **System Requirements**:
 * Your system should be able to handle the following functionality:
@@ -72,11 +53,11 @@ When you record your explanation, you will be asked to explain:
 - At least one significant design decision you made and what alternatives or trade-offs you considered to arrive at your final design. 
   - Examples of significant decisions: where to store your data, how your system handles order status, which class is responsible for X, Y, or Z.
 
-We recommend that you take notes as you create your system in the `system-design.md` file.
+We recommend that you take notes as you create your system in the `system-design.md` file and use pen and paper to draw an initial sketch of your design.
 
 ### Part 2: Create a UML Diagram
 
-You should create this using a diagramming tool (we recommend [LucidChart](https://www.lucidchart.com/)). 
+As you approach finalizing your design, transition to [LucidChart](https://www.lucidchart.com/) to create your UML diagram. 
 
 When you are done, click **Share** in the top right corner, turn on the **Shareable link** and then paste the link in the `system-design.md` file.
 
