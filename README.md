@@ -39,6 +39,8 @@ Your goal should be to hone your intuition around good system design and this ti
 
 **Scenario**: You are tasked with designing a **Doctor's Appointment Management system**. Your system design should capture the essential *entities (classes)*, the *responsibilities* of those entities (properties/methods), and the *relationships* between them.
 
+We recommend that you take notes as you create your system in the `system-design.md` file and **use pen and paper** to draw an initial sketch of your design.
+
 **System Requirements**:
 * Your system should be able to handle the following functionality:
   * A doctor can manage their list of available appointment slots.
@@ -52,8 +54,6 @@ When you record your explanation, you will be asked to explain:
 - Why you chose the specific relationships and class responsibilities.  
 - At least one significant design decision you made and what alternatives or trade-offs you considered to arrive at your final design. 
   - Examples of significant decisions: where to store your data, how your system handles order status, which class is responsible for X, Y, or Z.
-
-We recommend that you take notes as you create your system in the `system-design.md` file and use pen and paper to draw an initial sketch of your design.
 
 ### Part 2: Create a UML Diagram
 
