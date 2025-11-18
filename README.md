@@ -81,7 +81,7 @@ When you are done, click **Share** in the top right corner, turn on the **Sharea
    
 2. In your video, you must explain the **Explanation Topics** listed in part 1.
 
-3. Prior to recording, we highly recommend that you write out the key points of your explanation in bullets in the `src/system.design.md` file. 
+3. Prior to recording, we highly recommend that you write out the key points of your explanation in bullets in the `system.design.md` file. 
   
 4. Be specific and use proper technical vocabulary:
    | ✅ Good Example                                                          | 🚫 Bad Example                |
@@ -93,4 +93,4 @@ When you are done, click **Share** in the top right corner, turn on the **Sharea
 
 5. Keep your video concise (roughly between 5-7 minutes)
 
-6. Upload your video and add the link to the comment at the top of `src/modify-with-video.js`
+6. Upload your video and add the link to the comment at the top of `system-design.md`
